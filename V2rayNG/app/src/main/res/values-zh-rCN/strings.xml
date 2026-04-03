@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">带宽上行 (支持的单位 k/m/g/t)</string>
     <string name="server_lab_xhttp_mode">XHTTP 模式</string>
     <string name="server_lab_xhttp_extra">XHTTP Extra 原始 JSON，格式： { XHTTPObject }</string>
+    <string name="server_lab_final_mask">FinalMask 原始 JSON 格式: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">EchConfigList</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">证书指纹 (SHA-256)</string>
@@ -295,6 +296,12 @@
     <string name="title_import_config_count">导入 %d 个配置</string>
     <string name="title_export_config_count">导出 %d 个配置</string>
     <string name="title_update_config_count">更新 %d 个配置</string>
+    <string name="title_update_subscription_result">更新了 %1$d 个配置（%2$d 个成功，%3$d 个失败，%4$d 个跳过）</string>
+    <string name="title_update_subscription_no_subscription">无订阅</string>
+    <string name="toast_server_not_found_in_group">当前分组中未找到选中的服务器</string>
+    <string name="toast_fragment_not_available">无法定位当前视图</string>
+    <string name="title_locate_selected_config">定位所选配置</string>
+
     <string name="tasker_start_service">启动服务</string>
     <string name="tasker_setting_confirm">确定</string>
 

@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">Исходящая пропускная способность (допускаются: k/m/g/t)</string>
     <string name="server_lab_xhttp_mode">Режим XHTTP</string>
     <string name="server_lab_xhttp_extra">Необработанный JSON XHTTP Extra, формат: { XHTTPObject }</string>
+    <string name="server_lab_final_mask">finalMask raw JSON, format: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">EchConfigList</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">Отпечаток сертификата (SHA-256)</string>
@@ -233,8 +234,8 @@
     <string name="title_pref_double_column_display">Профили в два столбца</string>
     <string name="summary_pref_double_column_display">Список профилей отображается двумя столбцами, что позволяет показать больше информации на экране. Требуется перезапуск приложения.</string>
 
-    <string name="title_pref_group_all_display">Enable show all groups</string>
-    <string name="summary_pref_group_all_display">Add an extra "All Tabs" page</string>
+    <string name="title_pref_group_all_display">Общая вкладка групп</string>
+    <string name="summary_pref_group_all_display">Показывать дополнительную вкладку со всеми профилями групп</string>
     <!-- AboutActivity -->
     <string name="title_pref_feedback">Обратная связь</string>
     <string name="summary_pref_feedback">Предложить улучшение или сообщить об ошибке на GitHub</string>
@@ -295,6 +296,11 @@
     <string name="title_import_config_count">Импортировано профилей: %d</string>
     <string name="title_export_config_count">Экспортировано профилей: %d</string>
     <string name="title_update_config_count">Обновлено профилей: %d</string>
+    <string name="title_update_subscription_result">Обновлено профилей: %1$d (успешно: %2$d, ошибок: %3$d, пропущено: %4$d)</string>
+    <string name="title_update_subscription_no_subscription">Нет подписок</string>
+    <string name="toast_server_not_found_in_group">Выбранный профиль не найден в текущей группе</string>
+    <string name="toast_fragment_not_available">Фрагмент недоступен</string>
+    <string name="title_locate_selected_config">Найти выбранный профиль</string>
 
     <string name="tasker_start_service">Запуск службы</string>
     <string name="tasker_setting_confirm">Подтвердить</string>
@@ -358,7 +364,7 @@
     <string name="title_configuration_restore">Восстановление конфигурации</string>
     <string name="title_configuration_share">Поделиться конфигурацией</string>
     <string name="title_webdav_config_setting">Настройки WebDAV</string>
-    <string name="title_webdav_config_setting_unknown">Необходимо настроить WebDAV.</string>
+    <string name="title_webdav_config_setting_unknown">Необходимо настроить WebDAV</string>
     <string name="title_webdav_url">URL сервера</string>
     <string name="title_webdav_user">Пользователь</string>
     <string name="title_webdav_pass">Пароль</string>
